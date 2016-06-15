@@ -1,0 +1,8 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/temp
+MAILTO=vbox
+HOME=/path_to_user_vbox_homedir/
+30 22 * * tue /usr/bin/perl /script_dir/virtualbox_backup.pl > /temp/logbackup.txt
+30 22 * * wed /usr/bin/perl /script_dir/virtualbox_backup.pl > /temp/logbackup.txt
+30 22 * * thu /usr/bin/perl /script_dir/virtualbox_backup.pl > /temp/logbackup.txt
+30 22 * * fri /usr/bin/perl /script_dir/virtualbox_backup.pl > /temp/logbackup.txt
